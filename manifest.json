@@ -1,0 +1,67 @@
+{
+  "name": "SnapPDF — India's #1 Document Utility",
+  "short_name": "SnapPDF",
+  "description": "Convert, compress, resize & share documents instantly. 21 tools. Free, no login, works offline.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0A5BFF",
+  "theme_color": "#0A5BFF",
+  "categories": ["productivity", "utilities", "business"],
+  "prefer_related_applications": false,
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/hero-illustration.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "SnapPDF Home Screen"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Compress PDF",
+      "short_name": "Compress",
+      "description": "Compress PDF to exact file size",
+      "url": "/?tool=compress-pdf",
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Image to PDF",
+      "short_name": "Img2PDF",
+      "description": "Convert images to PDF",
+      "url": "/?tool=image-to-pdf",
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "QR Generator",
+      "short_name": "QR Code",
+      "description": "Generate QR codes",
+      "url": "/?tool=qr-generator",
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
